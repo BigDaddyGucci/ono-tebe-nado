@@ -1,12 +1,12 @@
 .header {
-  display: grid;
-  grid-template-columns: 2fr auto 2fr;
-  align-items: center;
-  padding: 92px 49px 92px 51px;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: normal;
+  display: grid;
+  grid-template-columns: 2fr auto 2fr;
+  align-items: center;
+  padding: 92px 49px 92px 51px;
 }
 
 .header__menu-list {
@@ -16,7 +16,6 @@
 }
 
 .header__menu-link {
-  color: #000;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -24,10 +23,10 @@
   line-height: normal;
   text-decoration: underline;
   text-underline-offset: 4px;
+  color: #000;
 }
 
 .header__menu-item_active {
-  color: #000;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -35,6 +34,7 @@
   line-height: normal;
   text-underline-offset: 4px;
   list-style-type: none;
+  color: #000;
 }
 
 .header__logo {
@@ -52,7 +52,6 @@ address {
 }
 
 .address-link {
-  color: #000;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -60,17 +59,18 @@ address {
   line-height: normal;
   text-decoration: underline;
   text-underline-offset: 4px;
+  color: #000;
 }
 
 .address {
-  justify-self: end;
-  max-width: 240px;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: 135%;
   text-decoration: none;
+  justify-self: end;
+  max-width: 240px;
 }
 
 .overlay {
@@ -141,7 +141,6 @@ address {
 }
 
 .cover__description-text {
-  color: #fff;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 22px;
@@ -150,16 +149,17 @@ address {
   text-align: center;
   text-transform: uppercase;
   word-spacing: 18px;
+  color: #fff;
 }
 
 .bet-button {
-  border: 1px solid #fff;
-  padding: 12px 32px;
-  color: #fff;
   font-weight: 100;
   font-size: 22px;
   text-transform: uppercase;
   background: transparent;
+  border: 1px solid #fff;
+  padding: 12px 32px;
+  color: #fff;
 }
 
 .lots {
@@ -169,15 +169,15 @@ address {
 }
 
 .lots__heading {
-  padding-bottom: 27px;
-  padding-left: 40px;
-  color: #000;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
   line-height: normal;
   text-transform: uppercase;
+  padding-bottom: 27px;
+  padding-left: 40px;
+  color: #000;
 }
 
 .lots__card-list {
@@ -226,21 +226,21 @@ address {
 }
 
 .card__title {
-  z-index: 1;
-  color: #fff;
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
   text-decoration: underline;
   text-underline-offset: 4px;
   text-transform: uppercase;
+  z-index: 1;
+  color: #fff;
 }
 
 .card__text {
-  z-index: 1;
-  color: #fff;
   font-size: 20px;
   line-height: 120%;
+  z-index: 1;
+  color: #fff;
 }
 
 .lots__look-more-link {
@@ -279,24 +279,23 @@ address {
 }
 
 .about__title {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  color: #000;
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
   line-height: normal;
   text-transform: uppercase;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #000;
 }
 
 .about__text {
-  padding-bottom: 27px;
-  padding-bottom: 27px;
-  color: #000;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
   line-height: normal;
+  padding-bottom: 27px;
+  color: #000;
 }
 
 .footer {
@@ -313,7 +312,6 @@ address {
 }
 
 .footer__menu-link {
-  color: #000;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -321,10 +319,10 @@ address {
   line-height: normal;
   text-decoration: underline;
   text-underline-offset: 4px;
+  color: #000;
 }
 
 .footer__menu-item_active {
-  color: #000;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -332,6 +330,7 @@ address {
   line-height: normal;
   text-underline-offset: 4px;
   list-style-type: none;
+  color: #000;
 }
 
 .footer__social-list {
