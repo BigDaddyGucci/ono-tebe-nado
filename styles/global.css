@@ -20,7 +20,8 @@ p,
 ul,
 ol,
 li,
-blockquote {
+blockquote,
+address {
   margin: 0;
   padding: 0;
 }
@@ -30,5 +31,6 @@ a {
 }
 
 img {
-  width: 100%;
+  width: 148px;
+  height: 105px;
 }
