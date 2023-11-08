@@ -47,10 +47,6 @@
   text-wrap: wrap;
 }
 
-address {
-  display: block;
-}
-
 .address-link {
   font-family: Raleway, sans-serif;
   font-weight: 400;
@@ -93,16 +89,16 @@ address {
 }
 
 .cover__title {
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115px;
+  letter-spacing: 30px;
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding: 165px 50px 147px;
   color: #fff;
-  font-weight: 700;
-  font-size: 100px;
-  line-height: 115px;
-  letter-spacing: 30px;
 }
 
 .aligned-text {
@@ -342,4 +338,8 @@ address {
 .footer__social-icon {
   width: 48px;
   height: 48px;
+}
+
+address {
+  display: block;
 }
